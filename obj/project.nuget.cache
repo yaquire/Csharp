@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EvGyJMrUQNUlB3zsn9zlHcqJOxrRO95NeJ4YHF33PbZ58NY2EXl1f59DtbN5UTim+vTHQD+bce6To8Qr3kJhxg==",
+  "success": true,
+  "projectFilePath": "/home/yaq/code/Csharp/TestProject/TestProject.csproj",
+  "expectedPackageFiles": [
+    "/home/yaq/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.7/microsoft.aspnetcore.app.ref.8.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
