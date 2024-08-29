@@ -31,15 +31,27 @@ string binary_decimal_function()
     Console.Write("Invalid Input. PLease Enter a proper Binary Number: ");
   }
   //Console.Write(number);
+  string user_number = Convert.ToString(number);
   bool has_binary = false;
-  for (int i = 0; i < 10; i++)
+  for (int i = 0; i < user_number.Length; i++)
   {
-
+    //Console.WriteLine($"Number is:{user_number[i]}");
+    Console.WriteLine($"{user_number[i]}; {user_number[i].GetType()}");
+    if (user_number[i] == '1' || user_number[i] == '0')
+    {
+      has_binary = true;
+      //Console.WriteLine("TRUE"); 
+    }
+    else
+    {
+      //Console.WriteLine("FALSE"); 
+      has_binary = false;
+    }
   }
 
   return "b-d";
-}
 
+}
 
 
 

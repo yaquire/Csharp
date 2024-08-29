@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/yaq/code/Csharp/TestProject/TestProject.csproj",
+      "projectUniqueName": "/home/yaq/code/Csharp/TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "/home/yaq/code/Csharp/TestProject/TestProject.csproj",
+      "projectPath": "/home/yaq/code/Csharp/TestProject.csproj",
       "packagesPath": "/home/yaq/.nuget/packages/",
-      "outputPath": "/home/yaq/code/Csharp/TestProject/obj/",
+      "outputPath": "/home/yaq/code/Csharp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/yaq/.nuget/NuGet/NuGet.Config"
