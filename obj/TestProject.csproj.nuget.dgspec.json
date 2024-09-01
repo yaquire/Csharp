@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/yaq/code/Csharp/TestProject.csproj": {}
+    "/home/yaq/code/Csharp/TestProject/TestProject.csproj": {}
   },
   "projects": {
-    "/home/yaq/code/Csharp/TestProject.csproj": {
+    "/home/yaq/code/Csharp/TestProject/TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/yaq/code/Csharp/TestProject.csproj",
+        "projectUniqueName": "/home/yaq/code/Csharp/TestProject/TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "/home/yaq/code/Csharp/TestProject.csproj",
+        "projectPath": "/home/yaq/code/Csharp/TestProject/TestProject.csproj",
         "packagesPath": "/home/yaq/.nuget/packages/",
-        "outputPath": "/home/yaq/code/Csharp/obj/",
+        "outputPath": "/home/yaq/code/Csharp/TestProject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/yaq/.nuget/NuGet/NuGet.Config"

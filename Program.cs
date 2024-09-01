@@ -24,33 +24,59 @@ string input_choice_function()//This function lets the user choses which way to 
 
 string binary_decimal_function()
 {
-  int number;
-  Console.Write("Please Enter the Binary Number: ");
-  while (!int.TryParse(Console.ReadLine(), out number))
+  int number = 0;
+
+  while (true)
   {
-    Console.Write("Invalid Input. PLease Enter a proper Binary Number: ");
-  }
-  //Console.Write(number);
-  string user_number = Convert.ToString(number);
-  bool has_binary = false;
-  for (int i = 0; i < user_number.Length; i++)
-  {
-    //Console.WriteLine($"Number is:{user_number[i]}");
-    Console.WriteLine($"{user_number[i]}; {user_number[i].GetType()}");
-    if (user_number[i] == '1' || user_number[i] == '0')
+    Console.Write("Please Enter the Binary Number: ");
+    while (!int.TryParse(Console.ReadLine(), out number))
     {
-      has_binary = true;
-      //Console.WriteLine("TRUE"); 
+      Console.Write("Invalid Input. PLease Enter a proper Binary Number: ");
+    }
+    //Console.Write(number);
+    string user_number = Convert.ToString(number);
+    int no_binary = 0;
+    for (int i = 0; i < user_number.Length; i++)
+    {
+      //Console.WriteLine($"Number is:{user_number[i]}");
+      Console.WriteLine($"{user_number[i]}; {user_number[i].GetType()}");
+      if (user_number[i] == '1' || user_number[i] == '0')
+      {
+        no_binary += 0;
+        //Console.WriteLine("TRUE"); 
+      }
+      else
+      {
+        //Console.WriteLine("FALSE"); 
+        no_binary += 1;
+      }
+    }
+
+    if (no_binary == 0)
+    {
+      break;
     }
     else
     {
-      //Console.WriteLine("FALSE"); 
-      has_binary = false;
+      Console.WriteLine("ERROR wrong value");
+      continue;
     }
   }
+  //Console.WriteLine(number);
+  int final_decimal_from_bianry = 0;
+  string user_binary = Convert.ToString(number);
+  for (int i = 1; i <= user_binary.Length; i++)
+  {
+    int interger_bi = Convert.ToInt16(user_binary[^i]);
+    Console.WriteLine($"interger_bi: {interger_bi}");
+    final_decimal_from_bianry += (interger_bi * 2 ^ i);
+    Console.WriteLine($"From Binary to Decimal: {final_decimal_from_bianry}");
 
-  return "b-d";
+  }
+  //  Console.WriteLine($"From Binary to Decimal: {final_decimal_from_bianry}");
 
+
+  return "binary-decimal";
 }
 
 
